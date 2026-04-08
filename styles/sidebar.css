@@ -1,0 +1,45 @@
+.side-bar {
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2px;
+
+}
+
+.sidebar-item {
+    width: 100%;
+    height: 64px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 3px;
+}
+.item-txt {
+    font-size: 10px;
+    margin-top: 4px;
+    font-family: Roboto, Arial;
+}
+.home-icon {
+    width: 33px;
+}
+.shorts-icon{
+    width: 25px;
+}
+.subscriptions-icon{
+    margin-bottom: 2px;
+    width: 25px;
+}
+.you-icon{
+    margin-bottom: 2px;
+    width: 25px;
+}
+
+
